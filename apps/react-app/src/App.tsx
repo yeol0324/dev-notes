@@ -1,4 +1,5 @@
 import { UseOptimisticDemo } from "./experiments/useOptimisticDemo/useOptimisticDemo";
+import { UseReducerDemo } from "./study/useReducerDemo";
 import "./App.css";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <div>
         <UseOptimisticDemo />
+        <UseReducerDemo />
       </div>
     </>
   );
