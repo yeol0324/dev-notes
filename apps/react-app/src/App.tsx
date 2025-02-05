@@ -1,13 +1,10 @@
-import { UseOptimisticDemo } from "./experiments/useOptimisticDemo/useOptimisticDemo";
-import { UseReducerDemo } from "./study/useReducerDemo";
 import "./App.css";
-
+import { ExcelPerfDemo } from "./components/ExcelPerfDemo";
 function App() {
   return (
     <>
       <div>
-        <UseOptimisticDemo />
-        <UseReducerDemo />
+        <ExcelPerfDemo />
       </div>
     </>
   );
