@@ -40,6 +40,9 @@ export default function EventLoopTest() {
   if (count > 0) {
     requestAnimationFrame(() => {
       console.log('--- 5. requestAnimationFrame (Render Queue) ---');
+      requestAnimationFrame(() => {
+        console.log('--- 7. after requestAnimationFrame (Render Queue) ---');
+      });
     });
   }
 
