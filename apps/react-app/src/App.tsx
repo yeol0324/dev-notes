@@ -1,13 +1,10 @@
-import "./App.css";
-// import { ExcelPerfDemo } from "./components/ExcelPerfDemo";
-// import { PetstorePetsByStatusPage } from "./components/PetstorePetsByStatusPage";
-import { ReactCompiler } from "./components/ReactCompiler";
+import './App.css';
+import EventLoopTest from './study/EventLoopTest';
+
 function App() {
   return (
     <>
-      <ReactCompiler />
-      {/* <PetstorePetsByStatusPage />
-        <ExcelPerfDemo /> */}
+      <EventLoopTest />
     </>
   );
 }
