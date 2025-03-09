@@ -10,7 +10,19 @@
     "gen": "openapi-typescript https://petstore3.swagger.io/api/v3/openapi.json -o src/app/shared/generated/openapi.d.ts"
   },
   "dependencies": {
+    "@dotlottie/react-player": "^1.6.19",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@esotericsoftware/spine-pixi-v8": "^4.2.96",
+    "@lottiefiles/dotlottie-web": "^0.60.0",
+    "@mui/icons-material": "^7.3.6",
+    "@mui/material": "^7.3.6",
+    "@pixi/spine-pixi": "2.1.1",
+    "@tanstack/react-table": "^8.21.3",
+    "lottie-react": "^2.4.1",
+    "lottie-web": "^5.13.0",
     "next": "16.1.0",
+    "pixi.js": "^8.14.3",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
