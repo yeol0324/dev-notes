@@ -1,0 +1,24 @@
+{
+  "name": "labs",
+  "private": true,
+  "scripts": {
+    "start": "ts-node",
+    "typecheck": "run-p typecheck:*",
+    "typecheck:ts": "tsc -p tsconfig.json --noEmit",
+    "typecheck:jsdoc": "tsc -p jsconfig.json --noEmit",
+    "typecheck:flow": "flow check --show-all-errors",
+    "flow:start": "flow start",
+    "flow:stop": "flow stop"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "flow-bin": "^0.285.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "flow": "^0.2.3",
+    "init": "^0.1.2",
+    "zod": "^4.1.11"
+  }
+}
