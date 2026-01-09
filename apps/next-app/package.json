@@ -24,7 +24,8 @@
     "next": "16.1.0",
     "pixi.js": "^8.14.3",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "zustand": "^5.0.9"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
